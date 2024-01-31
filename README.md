@@ -55,9 +55,6 @@ The service will start monitoring the directory specified in `watchDir`. When a 
 The service provides logs for various events such as service start-up, file detection, file validation, and errors.
 
 ---
-
-Ensure Kafka and Zookeeper are running before starting the service. Modify `constants.go` as per your setup requirements.
-
 ## TODO
 
 Refactor code into packages. Inlcude unit tests.
